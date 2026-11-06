@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(177, 177, 218);
+    background-image: url("espaco.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    color: rgba(254, 254, 254, 0.871);
+}
+
+h1 {
+    color: rgb(31, 31, 129);
+    font-family: "Audiowide", sans-serif;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 6px 6px 12px rgba(241, 235, 235, 0.577);
+}
+
+h2 {
+    color: rgb(119, 119, 203);
+    font-family: fantasy;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.destaque{
+    background-color: rgba(79, 132, 232, 0.626);
+    margin: 20px;
+    font-size: 18px;
+}
+
+a {
+    color: rgb(78, 146, 163);
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    background-color: rgba(79, 132, 232, 0.626);
+    width: 500px;
+    border: 1px solid rgb(247, 247, 247);
+    margin: 30px;
+    height: max-content;
+    box-shadow: 6px 6px 12px rgba(241, 235, 235, 0.577);
+}
+
+li img{
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+}
+
+/* 
+Desafio Técnico: Qual foi a regra CSS mais difícil de aplicar e como conseguiste superar essa dificuldade?
+a regra mais dificil de aplicar foi a do background-attachment: fixed. Eu quis colocar uma imagem de fundo na página mas não gostei de como estava a ficar. Após várias pesquisas descobri que precisava deste atributo para que a imagem cobrisse a página e ficasse fixa.
+
+Correção de Sintaxe: Durante os teus testes no browser, detetaste com certeza algum erro que te tenha obrigado a voltar ao Notepad++ para corrigir. Qual foi o teu erro mais comum?
+o erro mais comum foi esquecer de fechar as chaves das regras CSS, o que causava problemas na aplicação dos estilos. Para corrigir, verificava sempre se todas as chaves estavam devidamente fechadas antes de salvar e testar no browser.
+
+Autoria: Escolhe apenas um dos atributos que usaste (href ou src) e explica pelas tuas próprias palavras, num único parágrafo, para que serve.
+src significa "source" e é usado para indicar o caminho de um recurso externo, como uma imagem, vídeo ou script, que será incorporado na página web. Ao definir o atributo src numa tag HTML, o browser sabe onde localizar e carregar o conteúdo necessário para exibir corretamente na página. 
+*/
